@@ -1,7 +1,7 @@
-# SkillMatch - Plataforma de Recrutamento e Match de Habilidades
+# TalentSync - Plataforma de Recrutamento e Match de Habilidades
 
 ## 🚀 Sobre o projeto
-O **SkillMatch** é uma plataforma que conecta candidatos e empresas com base em habilidades, oferecendo uma experiência intuitiva e responsiva para o usuário.  
+O **TalentSync** é uma plataforma que conecta candidatos e empresas com base em habilidades, oferecendo uma experiência intuitiva e responsiva para o usuário.  
 Este projeto é focado no **Front-End**, garantindo:
 
 - Interface clara e interativa
