@@ -4,44 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/sobre.css">
+    <link rel="stylesheet" href="./CSS/faq.css">
+    <link rel="stylesheet" href="./CSS/quemsomos.css">
+    <link rel="stylesheet" href="./CSS/contato.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
-    <title>SkillMatch</title>
+    <title>Contato - TalentSync</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar section-content">
-            <a href="index.html" class="nav-logo">
-                <h2 class="logo-text">SkillMatch</h2>
-            </a>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="index.html" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="sobre.html" class="nav-link">Sobre</a>
-                </li>
-                <li class="nav-item">
-                    <a href="faq.html" class="nav-link">FAQ</a>
-                </li>
-                <li class="nav-item">
-                    <a href="contato.html" class="nav-link">Contato</a>
-                </li>
-            </ul>
-        </nav>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - TalentSync</title>
+    <link rel="stylesheet" href="./CSS/contato.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+    <header id="main">
+        <div class="container">
+            <nav>
+                <div class="logo">TalentSync</div>
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="integrantes.html">Quem somos</a></li>
+                    <li><a href="contato.html" class="active">Contato</a></li>
+                    <li><button class="btn btn-secondary">(11) 0000-0000</button></li>
+                </ul>
+                <div class="menu-btn"><i class="fa-solid fa-bars"></i></div>
+            </nav>
+              <div class="main-content">
+                <h1 class="intro-heading">ENTRE EM CONTATO</h1>
+            </div>
+        </div>
     </header>
 
-    <main>
-        <section class="hero-section">
-        </section>
-    </main>
-    
-    <footer class="site-footer">
-    <div class="footer-content">
-        <h3>SkillMatch</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nulla voluptatibus quos quo? Quas rem nemo rerum sint repudiandae et, expedita recusandae eveniet, illum quos voluptatem? Expedita ab voluptate ut.</p>
-        <p class="footer-copy">&copy; 2025 Conexão do Bem. Todos os direitos reservados.</p>
+    <section id="contact-page">
+        <div class="container">
+    <div class="contact-info">
+        <h2>Informações de Contato</h2>
+        <p><i class="fa-solid fa-phone"></i> (11) 0000-0000</p>
+        <p><i class="fa-solid fa-envelope"></i> contato@talentsync.com</p>
+        <p><i class="fa-solid fa-location-dot"></i> São Paulo, SP</p>
     </div>
-</footer>
+
+    <form id="contactForm" class="contact-form" action="#" method="POST">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" placeholder="Seu nome" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+
+        <label for="message">Mensagem:</label>
+        <textarea id="message" name="message" placeholder="Escreva sua mensagem" required></textarea>
+
+        <button type="submit" class="btn btn-primary">Enviar</button>
+        <p id="formMessage"></p>
+    </form>
+
+
+    </section>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-logo">TalentSync</div>
+            <p class="footer-copy">&copy; 2025 Conexão do Bem. Todos os direitos reservados.</p>
+        </div>
+    </footer>
     <script src="./js/script.js"></script>
+    <script src="./js/contato.js"></script>
 </body>
 </html>

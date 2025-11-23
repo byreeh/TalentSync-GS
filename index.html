@@ -4,48 +4,118 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/sobre.css">
+    <link rel="stylesheet" href="./CSS/faq.css">
+    <link rel="stylesheet" href="./CSS/quemsomos.css">
+    <link rel="stylesheet" href="./CSS/contato.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
-    <title>SkillMatch</title>
+    <title>Home - TalentSync</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar section-content">
-            <img class="logo" scr="" alt="logo">
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="index.html" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="sobre.html" class="nav-link">Sobre</a>
-                </li>
-                <li class="nav-item">
-                    <a href="faq.html" class="nav-link">FAQ</a>
-                </li>
-                <li class="nav-item">
-                    <a href="contato.html" class="nav-link">Contato</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+        <header id="main">
+            <div class="container">
+                <nav>
+                    <div class="logo">TalentSync</div>
+                    <ul class="nav-list">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="integrantes.html">Quem somos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                        <li><button class="btn btn-secondary">(11) 0000-0000</button></li>
+                    </ul>
+                    <div class="menu-btn"><i class="fa-solid fa-bars"></i></div>
+                </nav>
 
-    <main>
-        <section class="hero-section">
-            <h2>TITULO</h2>
-            <button>Sabia mais</button>
-            <div class="parent">
-                <div class="div1"><img src="meu-gif.gif" alt="Descrição do GIF"></div>
-                <div class="div2">2</div>
+                <div class="main-content">
+                <h1 class="intro-heading">Conectando Talentos ao Futuro do Trabalho</h1>
+                <p>
+                     A TalentSync transforma o processo de recrutamento, automatizando tarefas, otimizando fluxos e garantindo que
+                     os melhores profissionais sejam encontrados rapidamente.
+                </p>
+                    <button class="btn btn-primary">Sabia mais</button>
+                </div>
             </div>
-        </section>
-    </main>
-    
+        </header>
+
+    <section id="services">
+        <div class="container">
+            <div class="section-title">
+                <h1>NOSSOS SERVIÇOS</h1>
+                <div class="line"></div>
+            </div>
+            <div class="services">
+                <div class="service">
+                    <img src="./img/service-1.png" alt="">
+                    <h1>Recrutamento Inteligente</h1>
+                    <p>Automatizamos a triagem de candidatos, analisamos perfis e indicamos os profissionais mais adequados para sua vaga.</p>
+                </div>
+            <div class="services">
+                <div class="service">
+                    <img src="./img/service-2.png" alt="">
+                    <h1>Processos Otimizados</h1>
+                    <p>Dashboards claros, métricas detalhadas e relatórios estratégicos permitem decisões rápidas e seguras.</p>
+                </div>
+            <div class="services">
+                <div class="service">
+                    <img src="./img/service-3.png" alt="">
+                    <h1>Decisões Baseadas em Dados</h1>
+                    <p>A análise de dados avançada ajuda a identificar tendências e aperfeiçoar cada etapa do recrutamento.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonial">
+        <div class="container">
+            <h1>
+               “Graças à TalentSync, conseguimos reduzir o tempo de contratação e
+               selecionar os candidatos mais adequados para cada posição.”
+            </h1>
+        </div>
+    </section>
+
+    <section id="about-us">
+        <div class="container">
+            <div class="about-content">
+                <h4>SOBRE NÓS</h4>
+                 <div class="line"></div>
+                <h1>
+                      Tecnologia e inteligência a serviço de um recrutamento mais rápido, eficiente
+                      e alinhado às necessidades da sua empresa.
+                </h1>
+                <p>
+                    A TalentSync nasceu com o propósito de simplificar o recrutamento,
+                    substituindo processos manuais por automação inteligente.
+                    Nossa plataforma combina IA, automações e dados para entregar mais agilidade,
+                    precisão e segurança na contratação de novos talentos.
+                </p>
+                <button class="btn btn-primary">Sabia mais</button>
+            </div>
+        <div class="about-image">
+            <img src="./img/about.png" alt="">
+        </div>
+        </div>
+
+    </section>
+
+    <section id="faq">
+        <div class="container">
+            <h1>FAQ</h1>
+            <p>
+                Tire suas dúvidas sobre funcionalidades, planos e como a TalentSync pode otimizar o recrutamento da sua empresa.
+            </p>
+            <button class="btn btn-primary">Clique aqui</button>
+        </div>
+    </section>
+
     <footer class="site-footer">
-    <div class="footer-content">
-        <h3>SkillMatch</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nulla voluptatibus quos quo? Quas rem nemo rerum sint repudiandae et, expedita recusandae eveniet, illum quos voluptatem? Expedita ab voluptate ut.</p>
-        <p class="footer-copy">&copy; 2025 Conexão do Bem. Todos os direitos reservados.</p>
-    </div>
-</footer>
+        <div class="container">
+            <div class="footer-logo">TalentSync</div>
+            <p class="footer-copy">&copy; 2025 Conexão do Bem. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <script src="./js/script.js"></script>
     <script src="./js/script.js"></script>
 </body>
 </html>

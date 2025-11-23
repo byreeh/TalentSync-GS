@@ -4,44 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/sobre.css">
+    <link rel="stylesheet" href="./CSS/faq.css">
+    <link rel="stylesheet" href="./CSS/quemsomos.css">
+    <link rel="stylesheet" href="./CSS/contato.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
-    <title>SkillMatch</title>
+    <title>FAQ - TalentSync</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar section-content">
-            <a href="index.html" class="nav-logo">
-                <h2 class="logo-text">SkillMatch</h2>
-            </a>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="index.html" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="sobre.html" class="nav-link">Sobre</a>
-                </li>
-                <li class="nav-item">
-                    <a href="faq.html" class="nav-link">FAQ</a>
-                </li>
-                <li class="nav-item">
-                    <a href="contato.html" class="nav-link">Contato</a>
-                </li>
-            </ul>
-        </nav>
+<header id="main">
+        <div class="container">
+            <nav>
+                <div class="logo">TalentSync</div>
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="faq.html" class="active">FAQ</a></li>
+                    <li><a href="integrantes.html">Quem somos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><button class="btn btn-secondary">(11) 0000-0000</button></li>
+                </ul>
+                <div class="menu-btn"><i class="fa-solid fa-bars"></i></div>
+            </nav>
+             <div class="main-content">
+                <h1 class="intro-heading">FAQ - Perguntas Frequentes</h1>
+                <p>Aqui você encontra respostas para as dúvidas mais comuns sobre a TalentSync.</p>
+            </div>
+        </div>
     </header>
 
-    <main>
-        <section class="hero-section">
-        </section>
-    </main>
-    
+    <section id="faq-page">
+        <div class="container">            
+            <div class="faq-item">
+                <h3>1. O que é a TalentSync?</h3>
+                <p>A TalentSync é uma plataforma que automatiza e otimiza processos de recrutamento, conectando talentos ao mercado de trabalho de forma mais rápida e eficiente.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>2. Como posso cadastrar minha empresa?</h3>
+                <p>Basta acessar a plataforma, criar uma conta e seguir o passo a passo para cadastrar sua empresa e suas vagas.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>3. Quais planos estão disponíveis?</h3>
+                <p>Oferecemos planos variados, incluindo gratuito e premium, com diferentes funcionalidades de automação e análise de dados.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>4. Existe suporte ao cliente?</h3>
+                <p>Sim! Nosso time de suporte está disponível via chat, e-mail ou telefone para ajudar em qualquer dúvida.</p>
+            </div>
+        </div>
+    </section>
     <footer class="site-footer">
-    <div class="footer-content">
-        <h3>SkillMatch</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nulla voluptatibus quos quo? Quas rem nemo rerum sint repudiandae et, expedita recusandae eveniet, illum quos voluptatem? Expedita ab voluptate ut.</p>
-        <p class="footer-copy">&copy; 2025 Conexão do Bem. Todos os direitos reservados.</p>
-    </div>
-</footer>
+        <div class="container">
+            <div class="footer-logo">TalentSync</div>
+            <p class="footer-copy">&copy; 2025 Conexão do Bem. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <script src="./js/script.js"></script>
     <script src="./js/script.js"></script>
 </body>
 </html>
